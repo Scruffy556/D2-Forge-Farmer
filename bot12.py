@@ -17,7 +17,6 @@ def countdown(t):
 #If you feel it should be longer or shorter change it to what ever you want. If you're going to change it keep in mind it has to be in seconds.
 time_between_launches=120
 hdc=windll.user32.GetDC(0)
-mouse=Controller()
 #This sleep is here to give you time to switch windows after you start the bot
 time.sleep(10)
 while True:
@@ -38,3 +37,4 @@ while True:
     #Starts a countdown until it is time to start the loop again
     #If any vast improvement could be made it would be here, you could have the bot read memory to know when the forge is active and as soon as it is done the loop could reset
     countdown(time_between_launches)
+#Please join the 6skin Gamers Clan https://www.bungie.net/en/ClanV2/Index?groupId=3844799
